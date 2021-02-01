@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+:root{
+	background-color: black;
+}
+div.hover_area:hover{
+	background-color: lightslategray ;
+	width:500px;
+	height:250px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	align-items: center;
+}
+div.hover_area{
+	background-color: lightslategray ;
+	width:500px;
+	height:250px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	align-items: center;
+}
+p.hover_area:hover{
+	background-color: cadetblue;
+	align-items: center;
+	transform:scale(1.04);
+}
+p.hover_area{
+	background-color: azure;
+	border-radius:5px;
+	width:20vw;
+	height:5vh;
+}
+.content {
+	background-color: #696969;
+		margin-left:30%;
+		margin-right:30%;
+		margin-top:10%;
+
+}
+
+.header {
+	align-content: center;
+}
+.options{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.option {
+	width:100%;
+	background-color: blue;
+	border-radius: 50px;
+	transform:scale(1.1);
+	margin-bottom: 0.3rem;
+	text-align: center;
+	
+}
+.option:hover {
+	cursor:pointer;
+	background-color: blue;
+	transform:scale(1.16);
+	
+}
+
+.text {
+	color:white;
+	font-size: 20px;
+	text-align: center;
+}
+.index{
+	margin:auto;
+	width:30%;
+}
+.Start_button{
+	height: 50%;
+	width:50%;
+	background-color: yellow;
+	margin:auto;
+}
+.Start_button:hover{
+	transform:scale(1.2);
+}
